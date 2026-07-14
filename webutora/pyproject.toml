@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "webutora"
+version = "0.3.0"
+description = "Camera-based full-body tracking system for VRChat using MediaPipe and OSC"
+authors = ["nagisaaan.py"]
+readme = "README.md"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-osc = "^1.9.0"
+mediapipe = "0.10.18"
+opencv-python = "^4.10.0.84"
+flask = "^3.1.0"
+matplotlib = "^3.10.8"
