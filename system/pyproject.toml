@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "webtora-beta"
+version = "0.4.0b1"
+description = "WebTora-β camera-based full-body tracking for VRChat using MediaPipe and OSC"
+authors = ["nagisaaan.py"]
+readme = "README.md"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "1.26.4"
+python-osc = "1.9.3"
+mediapipe = "0.10.18"
+opencv-contrib-python = "4.11.0.86"
+flask = "3.1.2"
+matplotlib = "3.10.8"

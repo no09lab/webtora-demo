@@ -1,0 +1,6 @@
+numpy==1.26.4
+mediapipe==0.10.18
+opencv-contrib-python==4.11.0.86
+python-osc==1.9.3
+Flask==3.1.2
+matplotlib==3.10.8

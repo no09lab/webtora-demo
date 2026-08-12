@@ -1,0 +1,20 @@
+﻿WEBTORA LICENSE POLICY
+PRODUCT=WebTora-β
+RIGHTSHOLDER=第09技術研究所
+COPYRIGHT_YEAR=2026
+LICENSE_SCOPE=PERSONAL_AND_COMMERCIAL_USE
+
+PERMITTED_ACTIONS=download,use,commercial_use,local_modification,commercial_content_creation,commercial_service_use
+PROHIBITED_WITHOUT_PRIOR_PERMISSION=redistribution_unmodified,redistribution_modified,sublicensing,sale_of_software
+
+LICENSE_TEXT_JA:
+Copyright (c) 2026 第09技術研究所 All Rights Reserved.
+本ソフトウェアは、個人利用および商用利用を許可します。
+本ソフトウェアを使用して制作したコンテンツ、配信、サービス等を商用目的で利用できます。
+ただし、著作権者の許可なく、本ソフトウェアそのもの、または改変した本ソフトウェアを再配布、販売、サブライセンス、第三者へ提供することは禁止します。
+
+LICENSE_TEXT_EN:
+Copyright (c) 2026 第09技術研究所 All rights reserved.
+Personal and commercial use of this software is permitted.
+Content, streams, and services created using this software may be used commercially.
+Redistribution, sale, sublicensing, or distribution to third parties of this software, whether modified or unmodified, is prohibited without prior permission from the copyright holder.

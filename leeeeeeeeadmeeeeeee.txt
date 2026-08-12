@@ -1,0 +1,54 @@
+﻿WebTora-β
+==========
+
+最初にこれを読んでください。
+
+【通常の起動】
+1. ZIPを必ず「すべて展開」で解凍します。
+2. Python 3.10（64bit）が必要です。
+3. 「WebTora-β.bat」をダブルクリックします。
+4. 初回だけPython仮想環境と必要ライブラリを自動セットアップします。
+5. 2回目以降は同じ「WebTora-β.bat」だけで起動できます。
+
+※ systemフォルダ内のBATやPythonファイルを直接起動する必要はありません。
+※ MediaPipeの日本語パス問題を避けるため、必ずルートの「WebTora-β.bat」から起動してください。
+
+【位置自動調節】
+1. Webカメラに頭から足先まで映る位置に立ちます。
+2. GUIの「位置自動調節」を押します。
+3. 両手を肩の高さまで横に広げてTポーズになります。
+4. STARTを押すと3秒後に高さと左右位置を自動取得します。
+5. 高さは床面に合わせ、左右はTポーズ時の腰中心を基準に追従します。
+※ 前後位置の自動追従は行いません。前後は「全体調整」のZで調整してください。
+
+【エラーが起きた場合】
+supportフォルダを開き、「GPT_SUPPORT.bat」を実行してください。
+「WEBTORA_GPT_DIAGNOSTICS.txt」がsupportフォルダに作成されます。
+
+普段使っているGPT・生成AIへ次の2ファイルを渡してください。
+・support\AI\GPT_SUPPORT_SETUP.txt
+・support\WEBTORA_GPT_DIAGNOSTICS.txt
+
+送る文章:
+「WebTora-βが動かないので、この2ファイルを読んで原因を特定し、直し方を順番に教えて」
+
+【supportフォルダ】
+GPT_SUPPORT.bat            診断TXTを作成
+REPAIR_WEBTORA.bat         Python環境/MediaPipe/OpenCVを修復
+CAMERA_TEST.bat            Webカメラだけを単独テスト
+AI\                        GPT向け説明、利用規約
+
+【systemフォルダ】
+WebTora-β本体と実行環境用ファイルです。
+通常利用では触らなくて大丈夫です。
+
+【利用規約】
+Copyright (c) 2026 第09技術研究所 All Rights Reserved.
+本ソフトウェアは、個人利用および商用利用を許可します。
+本ソフトウェアを使用して制作したコンテンツ、配信、サービス等を商用目的で利用できます。
+ただし、著作権者の許可なく、本ソフトウェアそのもの、または改変した本ソフトウェアを再配布、販売、サブライセンス、第三者へ提供することは禁止します。
+
+Copyright (c) 2026 第09技術研究所 All rights reserved.
+Personal and commercial use of this software is permitted.
+Content, streams, and services created using this software may be used commercially.
+Redistribution, sale, sublicensing, or distribution to third parties of this software, whether modified or unmodified, is prohibited without prior permission from the copyright holder.
