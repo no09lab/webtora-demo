@@ -551,11 +551,11 @@ WebToraでは、この仕組みを参考にしながら、現在の用途に合�
 
 ---
 
-# 動作している様子
+# 動作している様子+セットアップ方法
 
 YouTube：
 
-https://www.youtube.com/watch?v=n2ApPbEG0XY
+[WebToraのセットアップ方法](https://youtu.be/0sHe7uXlIJI)
 
 > [!NOTE]
 > 動画は特定バージョンで撮影されたものであり、現在のUIや挙動とは異なる場合があります。
